@@ -1,0 +1,28 @@
+{
+  "name": "telegram-wp-publisher",
+  "version": "1.0.0",
+  "description": "Telegram bot for AI-assisted bilingual WordPress publishing with WPML and RankMath",
+  "main": "bot_telegram.js",
+  "scripts": {
+    "start": "node bot_telegram.js",
+    "test": "node test_staging.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram", "wordpress", "wpml", "openai", "anthropic",
+    "publishing", "bot", "multilingual", "rankmath"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.0",
+    "better-sqlite3": "^11.0.0",
+    "dotenv": "^16.4.0",
+    "form-data": "^4.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.77.0",
+    "winston": "^3.13.0"
+  }
+}

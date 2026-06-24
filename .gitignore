@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Runtime data
+storage/sessions.db
+storage/sessions.db-shm
+storage/sessions.db-wal
+logs/
+images/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
