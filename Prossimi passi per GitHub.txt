@@ -1,7 +1,0 @@
-  Prossimi passi per GitHub:
-  cd /home/gian/progetti/telegram-wp-publisher
-  git init
-  git add .
-  git commit -m "Initial release — v1.0.0"
-  # poi crea la repo su GitHub e fai push
-
